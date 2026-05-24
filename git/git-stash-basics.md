@@ -17,14 +17,15 @@ git stash clear        → delete all stashes
 git stash -u           → include untracked files
 git stash push -m ""   → save with a name
 
-
 ## real world example
 
 You're mid-feature, changes not ready to commit
 git stash                   # save changes, clean working dir
 
 git checkout bugfix-branch  # switch to fix a bug
-# fix the bug...
+
+# fix the bug
+
 git commit -m "fix: navbar crash"
 
 git checkout feature-branch # come back
