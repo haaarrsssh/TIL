@@ -1,4 +1,5 @@
-What is HTTP?
+# What is HTTP?
+
 HTTP stands for HyperText Transfer Protocol.
 It is the set of rules that governs how data is sent and received between a client (your browser or app) and a server (where the data lives).
 Every time you open a website, watch a video, or use an app — HTTP is working underneath.
