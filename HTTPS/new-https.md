@@ -1,5 +1,7 @@
-What are Status Codes?
+# What are Status Codes?
+
 Every HTTP response starts with a 3-digit number that instantly tells you whether the request worked — and if not, why.
+
 HTTP/1.1 200 OK          ← everything worked
 HTTP/1.1 404 Not Found   ← resource doesn't exist
 HTTP/1.1 500 Internal Server Error  ← server crashed

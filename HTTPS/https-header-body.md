@@ -1,4 +1,4 @@
-## What are Headers?
+# What are Headers?
 
 Headers are key-value pairs that carry metadata about a request or response.
 They travel alongside the body but they are NOT the data itself — they describe the data, the sender, the format, the auth, and more.
