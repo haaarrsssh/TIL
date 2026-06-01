@@ -114,3 +114,5 @@ Body = the actual data being sent or received.
 The two most important headers to always get right: Content-Type and Authorization.
 
 Part of my daily TIL (Today I Learned) series — learning HTTP & APIs the 80/20 way.
+
+##
