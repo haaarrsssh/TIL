@@ -163,3 +163,4 @@ today=`date +%Y-%m-%d`     # works but old-style, avoid
 Key Takeaway
 
 Bash scripts follow a simple structure: shebang → variables → logic (if/loops/functions) → commands. The moment you find yourself repeating more than 3 terminal commands regularly, that's a script waiting to be written. Start small — automate one thing today on your Mint machine.
+ate
