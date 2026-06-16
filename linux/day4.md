@@ -102,7 +102,7 @@ bash# Run every minute
 
 # Every hour
 
-0 ** ** /home/harsh/scripts/fetch_data.sh
+0 **** /home/harsh/scripts/fetch_data.sh
 
 # Every 15 minutes
 
@@ -157,10 +157,10 @@ ToolWhat It DoesWhen to Useps auxSnapshot of all running processesDebugging what
 Cron time cheat sheet:
 
 @reboot     → run once at startup
-@daily      → same as: 0 0 ** *
+@daily      → same as: 0 0 ***
 @weekly     → same as: 0 0* *0
 @monthly    → same as: 0 0 1* *
-@hourly     → same as: 0* ** *
+@hourly     → same as: 0*** *
 
 bash# Use @reboot to start a script when Mint boots
 @reboot /home/harsh/scripts/start_server.sh
