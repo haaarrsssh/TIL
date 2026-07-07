@@ -249,4 +249,4 @@ app.post("/users", async (req: Request<{}, {}, CreateUserBody>, res: Response) =
 
 Key Takeaway
 
-TypeScript doesn't change how Express works — it just makes every contract explicit. The core pattern: define an interface for req.body, req.params, and req.query, then pass them as generics to Request<Params, ResBody, ReqBody, Query>. Use declare global to extend the Request type when adding custom fields in middleware. The payoff: req.body.titel becomes a compile-time error instead of a silent production bug.
+TypeScript doesn't change how Express works — it just makes every contract explicit. The core pattern: define an interface for req.body, req.params, and req.query, then pass them as generics to Request<Params, ResBody, ReqBody, Query>. Use declare global to extend the Request type when adding custom fields in middleware. The payoff: req.body.titel becomes a compile-time error instead of a silent production.
